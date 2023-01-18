@@ -34,7 +34,7 @@ document.querySelector('#cloudy').addEventListener('click', () => {
 function currentWeather(){
 
   // Current Weather
-  const url = 'http://dataservice.accuweather.com/currentconditions/v1/52479?apikey=XGx4uzId8sWj8ylpHQKFFxHE8DFoHcxx'
+  const url = 'https://dataservice.accuweather.com/currentconditions/v1/52479?apikey=XGx4uzId8sWj8ylpHQKFFxHE8DFoHcxx'
 
 
   fetch(url)
