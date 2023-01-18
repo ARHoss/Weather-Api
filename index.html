@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Current Weather</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body>
+
+		
+		<section>
+			<h1>Calgary Current Weather</h1>
+
+			<h3>Temperature: <span id="temp"></span></h3>
+		</section>
+
+		<section>
+			<h4><strong>Weather Themes</strong></h4>
+			<button id="sunny" class="btn btn-danger btn-lg">Sunny</button>
+			<button id="cloudy" class="btn btn-info btn-lg">Cloudy</button>
+			<button id="current" class="btn btn-success btn-lg">current</button>
+			<button id="snow" class="btn btn-light btn-lg">Snow</button>
+			<button id="rainy" class="btn btn-primary btn-lg">Rain</button>
+		</section>
+
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
